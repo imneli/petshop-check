@@ -13,7 +13,7 @@
 ## Figma
 
 <h2>
-<li><a href="#">Redirect Figma</a></li>
+<li><a href="https://www.figma.com/file/4ltbisiTDLGH2nW7gVLa78/Checkpoint---PetShop?type=design&node-id=0%3A1&mode=design&t=mdfc3uVLnc3xpEfm-1">Redirect Figma</a></li>
 
 
 
