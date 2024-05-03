@@ -24,42 +24,47 @@
 
 ## Desktop Site | Home
 
-<img src="https://i.imgur.com/pD1KC96.png"/>
-
-<img src="https://i.imgur.com/NLDx7Rl.png"/> 
-
-<img src="https://i.imgur.com/FEDqyjM.png"/> 
-
-## Desktop Site | Adopt Section
-
-<img src="https://i.imgur.com/2jasM3t.png"/> 
+<img src="https://i.imgur.com/kVXmZS1.jpeg"/>
 
 
-## Cellphone Site
+## Desktop Site | Products
 
-<img src=""/> 
+<img src="https://i.imgur.com/yi6Pi0z.png"/> 
+
+
+## Cellphone Site | Home
+
+<img src="https://i.imgur.com/oQGAdBu.png"/> 
+
+## Cellphone Site | Products
+
+<img src="https://i.imgur.com/xAFZkrq.png"/> 
 
 # How we created the website and its functions
 
 ## `Navbar`
 
 <h3>HTML</h3>
-<img src="https://i.imgur.com/QnOLpiU.png"/>
+<img src="https://i.imgur.com/ZOkisGV.png"/>
 <h3>CSS</h3>
-<img src="https://i.imgur.com/myYWWXd.png"/>
+<img src="https://i.imgur.com/VccNQeB.png"/>
+
+
 
 ## `Flipper`
-
 <h3>HTML</h3>
-<img src="https://i.imgur.com/LPDYYY0.png"/>
+<img src="https://i.imgur.com/nFS7rWm.png"/>
 <h3>CSS</h3>
-<img src="https://i.imgur.com/yoOGLC9.png"/>
+<img src="https://i.imgur.com/YxIVXuF.png"/>
 
 ## `Slider`
 
 <h3>HTML</h3>
-<img src="https://i.imgur.com/5xknQJP.png"/>
+<img src="https://i.imgur.com/8JrMqoX.png"/>
 <h3>CSS</h3>
-<img src="https://i.imgur.com/6u7kFQD.png"/>
+<img src="https://i.imgur.com/0lB1zM3.png"/>
+
+<h2>🇧🇷 | Obrigado por ler até aqui!</h2>
+<h2>🇺🇸 | Thank you for reading this far!</h2>
 
 
