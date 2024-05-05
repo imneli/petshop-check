@@ -24,7 +24,7 @@
 
 ## Desktop Site | Home
 
-<img src="https://i.imgur.com/cOMIL21.png"/>
+<img src="https://i.imgur.com/IkURco2.png"/>
 
 
 ## Desktop Site | Products
@@ -33,7 +33,7 @@
 
 ## Cellphone Site | Home
 
-<img src="https://i.imgur.com/6SRibRf.png"/> 
+<img src="https://i.imgur.com/W78JhCR.png"/> 
 
 ## Cellphone Site | Products
 
