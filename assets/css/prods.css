@@ -1,12 +1,15 @@
+:root {
+  --bg-color:#fff2d7;
+}
+
+
 body {
     background: #F6F9FF;
     height: 100vh;
     width: 100%;
 
-    
     justify-content: center;
     align-items: center;
-
     color: #434343;
 
     font-size: 16px;
@@ -24,7 +27,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: rgba(255, 165, 62, 0.6);
+  background: rgba(255, 165, 62);
   backdrop-filter: blur(10px);
   height: 4.6875rem;
   padding: 1rem;
@@ -52,7 +55,7 @@ header {
 
 .menu a:hover {
   transition: 0.5s;
-  background: #ffa53e;
+  background: #ffbf77;
 }
 
 .btn-menu {
@@ -85,7 +88,7 @@ header {
     position: absolute;
     top: 4.6875rem;
     left: 0;
-    background: rgba(255, 165, 62, 0.8);
+    background: rgba(255, 165, 62);
     text-align: center;
     width: 100%;
     height: 0;
@@ -145,124 +148,130 @@ header {
 }
 
 
+.container-prods {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--bg-color);
+  /* border: 1px solid red; */
+
+}
+
+.container-prods h2 {
+  margin-bottom: 4rem;
+}
+
+.container-grid {
+  display: grid;
+  /* border: 1px solid black; */
+  grid-template-columns: repeat(3, 1fr);
+  padding-bottom: 100px;
+  gap: 20px;
+}
 
 /* navbar - end */
 
-/* section 1 - start */
-
-.flips {
-    background-size: auto;
-    background-image: url(/assets/img/tijolo.jpg);
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
+.card {
+  margin: 10px;
+  width: 200px;
+  padding-bottom: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 0px 20px rgb(119, 119, 119);
 }
 
-/* section 1 - end */
-
-/* flip card - start */
-
-.flips {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 32px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+.card article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.container {
-    position: relative;
-    width: 280px;
-    height: 280px;
+.card > img {
+  object-fit: cover;
+  height: 200px;
 }
 
-.container:hover .flip {
-    transform: rotateY(180deg);
-    transition: 0.9s;
+.card > .desc-h3, .comprar-btn {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
-.flip {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    cursor: pointer;
-    transform-style: preserve-3d;
+article > .comprar-btn {
+  font-size: 1rem;
+  text-align: center;
+  outline: none;
+  border: none;
+  background-color: #ff9c2b;
+  padding: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  
 }
 
-#front1, .back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: 20px;
-    box-shadow: 0px 0px 10px #0000001b;
-    backface-visibility: hidden;
-}
 
-#front1 {
-    background-image: url(/assets/img/image\ 9.png);
-    background-size: cover;
-}
 
-#front2 {
-    background-image: url(/assets/img/biscrok.png);
-    background-size: cover;
-}
-
-#front3 {
-    background-image: url(/assets/img/luva.png);
-    background-size: cover;
-}
-
-#front2, .back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: 20px;
-    box-shadow: 0px 0px 10px #0000001b;
-    backface-visibility: hidden;
-}
-
-#front3, .back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: 20px;
-    box-shadow: 0px 0px 10px #0000001b;
-    backface-visibility: hidden;
-}
-
-.back {
-    background-color: rgba(240, 240, 240, 0.8);
-    backdrop-filter: blur(20px);
-    transform: rotateY(180deg);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: 24px;
-    color: #535353;
-}
-
-button {
-    outline: none;
-    border: none;
-    background-color: #ffa53e;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 6px;
-    margin-top: 10px;
-    cursor: pointer;
+.comprar-btn:hover {
+  transition: 0.8s;
+  border: 1px solid #131312;
+  background-color: #ff9c2b60;
+  cursor: pointer;
 }
 
 @media (max-width: 600px) {
-  .container {
-    width: 180px;
-    height: 180px;
+  .container-prods {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--bg-color);
+    /* border: 1px solid red; */
+  
   }
-}
+  
+  .container-prods h2 {
+    margin-bottom: 4rem;
+  }
+  
+  .container-grid {
+    display: grid;
+    /* border: 1px solid black; */
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 100px;
+    gap: 20px;
+  }
+
+  .card {
+    margin: 10px;
+    width: 180px;
+    padding-bottom: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px rgb(119, 119, 119);
+  }
+  
+  .card article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card > img {
+    object-fit: cover;
+    height: 200px;
+  }
+  
+  .card > .desc-h3, .comprar-btn {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  }
+
 
 
 /* footer - start */
@@ -379,6 +388,8 @@ button {
  
  
  /*Responsive*/
+
+
  @media (min-width: 1280px) {
  
   .footer               { padding: 100px 50px 50px 100px; }
@@ -407,19 +418,6 @@ button {
  /* footer - end */
 
  /* scrollbar */
-
- ::-webkit-scrollbar {
-  width: 15px;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: var(--main-color);
-}
-
-::-webkit-scrollbar-track {
-  background-color: #fff385;
-  width: 50px;
-}
 
 
 /* flip card - end */

@@ -24,21 +24,20 @@
 
 ## Desktop Site | Home
 
-<img src="https://i.imgur.com/kVXmZS1.jpeg"/>
+<img src="https://i.imgur.com/ALAcpCJ.png"/>
 
 
 ## Desktop Site | Products
 
-<img src="https://i.imgur.com/yi6Pi0z.png"/> 
-
+<img src="https://i.imgur.com/fiqU35n.png"/> 
 
 ## Cellphone Site | Home
 
-<img src="https://i.imgur.com/oQGAdBu.png"/> 
+<img src="https://i.imgur.com/5nQgN25.png"/> 
 
 ## Cellphone Site | Products
 
-<img src="https://i.imgur.com/xAFZkrq.png"/> 
+<img src="https://i.imgur.com/IKYxVaT.png"/> 
 
 # How we created the website and its functions
 
